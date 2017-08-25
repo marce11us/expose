@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Link
+Name=Window Exposer
+Comment=A module to show the list of client applications presently running.
+Icon=e-module-expose
+X-Enlightenment-ModuleType=core

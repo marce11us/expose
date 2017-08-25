@@ -1,0 +1,3 @@
+- add option to show windows of all desktops(screens),
+  does not work because of E_Client->frame not being renderd,
+  and moving the window the the current desktop somehow does not work
