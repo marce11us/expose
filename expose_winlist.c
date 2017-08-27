@@ -438,9 +438,8 @@ _e_winlist_client_add(E_Client *ec, E_Zone *zone, E_Desk *desk)
    fflush(logfile);
 
    //generate proxy thumbnail for expose
-   ww->thumb=evas_object_image_filled_add(e_comp->evas);
+   ww->thumb=e_comp_object_util_mirror_add(ec->frame);
 
-   evas_object_image_source_set(ww->thumb, ec->frame);
    evas_object_layer_set(ww->thumb, E_LAYER_CLIENT_POPUP);
 
    evas_object_color_set(ww->thumb, 255, 255, 255, 200);
